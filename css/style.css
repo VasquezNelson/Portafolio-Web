@@ -1,0 +1,63 @@
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+body{
+  width: 100%;
+  -webkit-backgroun-size:cover;
+}
+.c1{
+  background-image: url(../img/fondoh.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ini h1{
+  color: #f2f2f2;
+  font-weight: bolder;
+
+}
+.tit{
+  font-size: 40px;
+  color: lightgreen;
+  font-weight: bold;
+  padding-top: 50px;
+  display: block;
+}
+.tit:hover{
+  font-size: 45px;
+}
+.foot{
+  background: url(../img/foot.jpg);
+  background-position: center;
+  background-size: cover;
+  color: lightgreen;
+  text-align:center;
+
+
+}
+.i2{
+  border-radius: 20%;
+}
+footer hr{
+  background-color: lightgreen;
+}
+.icon{
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition:all .5s;
+}
+.icon-facebook{
+   background-color: lightgreen;
+}
+.icon-instagram{
+   background-color: lightgreen;
+}.icon-youtube{
+   background-color: lightgreen;
+}.icon-whatsapp{
+   background-color: lightgreen;
+}.icon-twiter{
+   background-color: lightgreen;
+}
