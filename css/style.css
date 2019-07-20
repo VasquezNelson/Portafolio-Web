@@ -17,6 +17,7 @@ body{
   font-weight: bolder;
 
 }
+
 .tit{
   font-size: 40px;
   color: lightgreen;
@@ -26,6 +27,9 @@ body{
 }
 .tit:hover{
   font-size: 45px;
+}
+.rr{
+  font-size: 20px;
 }
 .foot{
   background: url(../img/foot.jpg);
@@ -42,22 +46,58 @@ body{
 footer hr{
   background-color: lightgreen;
 }
-.icon{
-  color: white;
-  text-decoration: none;
-  padding: .7rem;
-  display: flex;
-  transition:all .5s;
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
 }
-.icon-facebook{
-   background-color: lightgreen;
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
 }
-.icon-instagram{
-   background-color: lightgreen;
-}.icon-youtube{
-   background-color: lightgreen;
-}.icon-whatsapp{
-   background-color: lightgreen;
-}.icon-twiter{
-   background-color: lightgreen;
+.rr{
+
+}
+.c2{
+  background-image: url("../img/c2.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 2%;
+}
+.foc a{
+  color: lightgreen;
+}
+.nel{
+  border-radius: 40%;
+  border: 10px double green;
+}
+.caca{
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.c3{
+  background-image:url("../img/c3.jpg");
+  background-size: cover;
+  background-position:center;
+
+}
+.gal h1{
+  color: #f2f2f2;
+  font-weight: bold;
+}
+.c3 h3{
+  color: lightgreen;
+  font-weight: bold;
+
+}
+.gal{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+.uni{
+  border: 5px groove lightgreen;
 }
